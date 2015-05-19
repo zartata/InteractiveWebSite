@@ -8,6 +8,12 @@ $(document).ready(function() {
 	$('#page_container').height(windowH - 10);
 	$('#page_container').css('padding', 5);
 	
+	// Set up the width of the header to the right of the logo to add 5px of space on the logo's right.
+	$('#header_options_container').width($('#header_bar').width() - 55);
+	$('#header_options_container').css('left', 55);
+	$('#header_options_container').css('top', -53);
+	
+	
 	// Set the height of the editing area to fit under the tab container.
 	$('#editing_area').height($('#editor').height() - 31);
 	
@@ -79,4 +85,5 @@ $(document).ready(function() {
 		// Focus on the JavaScript textarea.
 		$('#javascript_textarea').focus();
 	});
+	
 });
