@@ -17,10 +17,23 @@
 					<div id='css_tab'        class='editor_tab'>CSS</div>
 					<div id='javascript_tab' class='editor_tab'>JavaScript</div>
 				</div>
+				<div id='editing_area'>
+					<div id='editing_area_html'       class='editing_slab'>
+						<textarea id='html_textarea' class='editor_textarea' wrap='off' spellcheck='false'>&lt;!DOCTYPE html&gt;&#13;&#10;&lt;html lang='en'&gt;&#13;&#10;&#09;&lt;head&gt;&#13;&#10;&#09;&#09;&lt;title&gt;Title Goes Here&lt;/title&gt;&#13;&#10;&#09;&lt;/head&gt;&#13;&#10;&#09;&lt;body&gt;&#13;&#10;&#09;&#09;&#13;&#10;&#09;&lt;/body&gt;&#13;&#10;&lt;/html&gt;&#13;&#10;</textarea>
+					</div>
+					<div id='editing_area_css'        class='editing_slab'>
+						<textarea id='css_textarea' class='editor_textarea' wrap='off' spellcheck='false'>html {&#13;&#10;&#09;padding: 0;&#13;&#10;&#09;margin:  0;&#13;&#10;&#09;width:   100%;&#13;&#10;&#09;height:  100%;&#13;&#10;}&#13;&#10;&#13;&#10;body {&#13;&#10;&#09;padding: 0;&#13;&#10;&#09;margin:  0;&#13;&#10;&#09;width:   100%;&#13;&#10;&#09;height:  100%;&#13;&#10;&#09;background-color: white;&#13;&#10;}</textarea>
+					</div>
+					<div id='editing_area_javascript' class='editing_slab'>
+						<textarea id='javascript_textarea' class='editor_textarea' wrap='off' spellcheck='false'></textarea>
+					</div>
+				</div>
 			</div>
 			
-			<div id='web_frame'>
-				
+			<div id='web_frame_container'>
+				<div id='title_bar'>
+					<p id='title'>Title Goes Here</p>
+				</div>
 			</div>
 		</div>
 	</body>
