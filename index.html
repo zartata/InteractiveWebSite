@@ -15,7 +15,7 @@
 					<img id='header_logo' alt='logo.png' src='images/logo.png'/>
 				</div>
 				<div id='header_options_container'>
-				
+					
 				</div>
 			</div>
 			<div id='editor'>
@@ -26,13 +26,13 @@
 				</div>
 				<div id='editing_area'>
 					<div id='editing_area_html'       class='editing_slab'>
-						<textarea id='html_textarea' class='editor_textarea' wrap='off' spellcheck='false'>&lt;!DOCTYPE html&gt;&#13;&#10;&lt;html lang='en'&gt;&#13;&#10;&#09;&lt;head&gt;&#13;&#10;&#09;&#09;&lt;title&gt;Title Goes Here&lt;/title&gt;&#13;&#10;&#09;&lt;/head&gt;&#13;&#10;&#09;&lt;body&gt;&#13;&#10;&#09;&#09;&#13;&#10;&#09;&lt;/body&gt;&#13;&#10;&lt;/html&gt;&#13;&#10;</textarea>
+						<div id='html_textarea'       class='editor_textarea' contenteditable='true' spellcheck='false'><span class='html_markup'>&lt;</span>!DOCTYPE <span class='html_markup'>html&gt;</span><br><span class='html_markup'>&lt;html lang='en'&gt;</span><br>&#09;<span class='html_markup'>&lt;head&gt;</span><br>&#09;&#09;<span class='html_markup'>&lt;title&gt;</span>Title Goes Here<span class='html_markup'>&lt;/title&gt;</span><br>&#09;<span class='html_markup'>&lt;/head&gt;<span><br>&#09;<span class='html_markup'>&lt;body&gt;</span><br>&#09;&#09;<br>&#09;<span class='html_markup'>&lt;/body&gt;</span><br><span class='html_markup'>&lt;/html&gt;</span><br></div>
 					</div>
 					<div id='editing_area_css'        class='editing_slab'>
-						<textarea id='css_textarea' class='editor_textarea' wrap='off' spellcheck='false'>html {&#13;&#10;&#09;padding: 0;&#13;&#10;&#09;margin:  0;&#13;&#10;&#09;width:   100%;&#13;&#10;&#09;height:  100%;&#13;&#10;}&#13;&#10;&#13;&#10;body {&#13;&#10;&#09;padding: 0;&#13;&#10;&#09;margin:  0;&#13;&#10;&#09;width:   100%;&#13;&#10;&#09;height:  100%;&#13;&#10;&#09;background-color: white;&#13;&#10;}</textarea>
+						<div id='css_textarea'        class='editor_textarea' contenteditable='true' spellcheck='false'>html {<br>&#09;padding: 0;<br>&#09;margin:  0;<br>&#09;width:   100%;<br>&#09;height:  100%;<br>}<br><br>body {<br>&#09;padding: 0;<br>&#09;margin:  0;<br>&#09;width:   100%;<br>&#09;height:  100%;<br>&#09;background-color: white;<br>}</div>
 					</div>
 					<div id='editing_area_javascript' class='editing_slab'>
-						<textarea id='javascript_textarea' class='editor_textarea' wrap='off' spellcheck='false'></textarea>
+						<div id='javascript_textarea' class='editor_textarea' contenteditable='true' spellcheck='false'></div>
 					</div>
 				</div>
 			</div>
@@ -45,3 +45,7 @@
 		</div>
 	</body>
 </html>
+
+<!--&lt;!DOCTYPE html&gt;<br>&lt;html lang='en'&gt;<br>&#09;&lt;head&gt;<br>&#09;&#09;&lt;title&gt;Title Goes Here&lt;/title&gt;<br>&#09;&lt;/head&gt;<br>&#09;&lt;body&gt;<br>&#09;&#09;<br>&#09;&lt;/body&gt;<br>&lt;/html&gt;<br>
+
+html {<br>&#09;padding: 0;<br>&#09;margin:  0;<br>&#09;width:   100%;<br>&#09;height:  100%;<br>}<br><br>body {<br>&#09;padding: 0;<br>&#09;margin:  0;<br>&#09;width:   100%;<br>&#09;height:  100%;<br>&#09;background-color: white;<br>}-->
